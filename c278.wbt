@@ -1,0 +1,58 @@
+#VRML_SIM R2022a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.20098216677079767 0.19977835377538355 0.959007183499119 1.6189644417847504
+  position 0.08812982343392901 -6.845418875761503 3.339904171416432
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation 0 0 0.17
+  rotation 0 0 1 0.0392699
+  floorSize 4 4
+  floorTileSize 3 3
+  wallThickness 0.05
+  wallHeight 0.2
+}
+WoodenBox {
+  translation 1.43703 1.41327 0.3
+  rotation 0 0 1 0.00654529
+}
+WoodenBox {
+  translation 1.51778 -1.33618 0.3
+  rotation 0 0 1 0.00654529
+  name "wooden box(1)"
+}
+E-puck {
+  hidden position_0_0 546.898502035656
+  hidden position_0_1 605.6305162049897
+  hidden linearVelocity_0 0.05337407414782129 0.017605514403946518 6.927518720920625e-08
+  hidden angularVelocity_0 -0.002684091347093553 0.008138142010053653 0.09099288500473071
+  hidden rotation_1 0 -1 0 6.021804996147658
+  hidden linearVelocity_1 0.05116774192932761 0.016878272181441303 -4.88643534524464e-09
+  hidden angularVelocity_1 -0.8404369813953522 2.547681326864749 0.09274713265712475
+  hidden rotation_2 0 0.9999999999999999 0 2.4447267157494017
+  hidden linearVelocity_2 0.055661698784245636 0.01836066725740541 4.163829192545733e-09
+  hidden angularVelocity_2 -0.9214715078045546 2.793674209476137 0.09302237444999663
+  translation 1.3250498951867482 -0.11131194964934414 0.16994369985756402
+  rotation -0.00033180505601643076 0.0043495428991802065 0.9999904856457249 0.3203063574889023
+  version "2"
+  camera_fieldOfView 1.03
+  camera_width 57
+  camera_height 47
+  camera_motionBlur 3
+  distance_sensor_numberOfRays 4
+}
+WoodenBox {
+  translation -1.29318 -1.34234 0.3
+  rotation 0 0 1 0.00654529
+  name "wooden box(3)"
+}
+WoodenBox {
+  translation -1.37014 1.40025 0.3
+  rotation 0 0 1 0.00654529
+  name "wooden box(2)"
+}
